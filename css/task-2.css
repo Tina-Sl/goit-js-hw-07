@@ -1,0 +1,22 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+  background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 100px 156px 76px 156px;
+}
+.card {
+  display: flex;
+  width: 360px;
+  height: 300px;
+  margin-bottom: 24px;
+}
+.card-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

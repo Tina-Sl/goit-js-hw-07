@@ -1,0 +1,37 @@
+.three-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 136px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#name-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding-left: 16px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#name-input:hover {
+  border-color: black;
+  outline: 0;
+}
+#name-input::placeholder {
+  color: #2e2f42;
+  /* opacity: 0.4; */
+}
+.three-greetings {
+  font-size: 24px;
+}
